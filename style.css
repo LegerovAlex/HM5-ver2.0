@@ -1,0 +1,133 @@
+.header {
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  position: relative;
+}
+
+.hedaer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.list-item__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+}
+
+.list-item__btn {
+  background: #222222;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* hedaer end */
+
+.section__bgW {
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container__future {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 0px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.future-content {
+  padding-left: 48px;
+  padding-top: 48px;
+  flex-direction: column;
+  padding-right: 760px;
+}
+
+.future-content__title {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: #222222;
+  padding-bottom: 18px;
+}
+
+.future-content__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.future__img {
+  position: absolute;
+  top: 120px;
+  right: 100px;
+
+  height: 535px;
+  overflow: hidden;
+}
+
+.future-content__logo {
+  padding-bottom: 11px;
+}
+
+.futute-content__btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 5px;
+  padding-bottom: 55px;
+}
+.futute-content__btn button {
+  padding: 10px 25px;
+  background: #222222;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section__bgD {
+  background: black;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}

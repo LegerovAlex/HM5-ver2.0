@@ -56,6 +56,7 @@ li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .container__future {
@@ -96,7 +97,7 @@ li {
   top: 120px;
   right: 100px;
 
-  height: 535px;
+  height: 534px;
   overflow: hidden;
 }
 
@@ -124,10 +125,426 @@ li {
   text-transform: uppercase;
   color: #ffffff;
 }
-
+/* section 1 end */
 .section__bgD {
-  background: black;
-  max-width: 1200px;
-  height: 500px;
-  margin: 0 auto;
+  background: #222222;
 }
+
+.container__features {
+  padding: 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.features-discription {
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 300px;
+}
+
+.features-discription__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.features-discriotion__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-bottom: 45px;
+}
+.features__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.features__item {
+  max-width: 32%;
+  background: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+.features__item-discription {
+  background: #f2f2f2;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 48px;
+}
+
+.features__item-discription__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #0278ed;
+  padding-bottom: 11px;
+}
+.features__item-discription__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #222222;
+  padding: 0px 50px 40px 50px;
+}
+
+.features__item-img {
+  text-align: center;
+  height: 300px;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.features__item-discription img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 60%;
+}
+
+.features__item:nth-child(2) h3 {
+  color: #ff5437;
+}
+.features__item:nth-child(3) h3 {
+  color: #ff9209;
+}
+.features__item:nth-child(4) h3 {
+  color: #e738ce;
+}
+.features__item:nth-child(5) h3 {
+  color: #00c6df;
+}
+.features__item:nth-child(6) h3 {
+  color: #b25df8;
+}
+/* end section 2 */
+.section__bgR {
+  background: #ff5437;
+}
+.container__stats {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  gap: 170px;
+  justify-content: center;
+}
+
+.stats-info {
+  flex-wrap: wrap;
+}
+
+.stats-info__subtitle {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 96px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.stats-info__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/* end section 3  */
+
+.container__technology {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.technology-discription {
+  padding: 76px 715px 87px 78px;
+}
+
+.technology-discription__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 5px;
+}
+.technology-discription__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 15px;
+}
+.technology-discription__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.technology-discription__img {
+  padding-right: 100px;
+  position: absolute;
+  height: 543px;
+  overflow: hidden;
+  top: 100px;
+}
+
+/* end section 4  */
+
+.section__bgG {
+  background: #f2f2f2;
+}
+
+.container__speed-security {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.speed-security-discription__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 5px;
+}
+.speed-security-discription__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 15px;
+}
+.speed-security-discription__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.security-discriprion__img {
+  padding-left: 100px;
+  position: absolute;
+  height: 543px;
+  overflow: hidden;
+  top: 100px;
+}
+.speed-security-discription {
+  padding: 76px 95px 87px 715px;
+}
+/* end section 5  */
+
+.container__mode {
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  padding: 100px 0px 140px 0px;
+}
+
+.mode__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+.mode__subtitle {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 14px;
+}
+.mode__text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 31px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+.mode__img {
+  height: 486px;
+  text-align: center;
+  overflow: hidden;
+}
+
+hr {
+  background: #e5e5e5;
+}
+
+.mode__line {
+  padding-bottom: 40px;
+}
+
+.mode__items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.mode-item__img {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.mode-item__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+/* end section 7 */
+
+.container__pricing {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.pricing__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 5px;
+}
+.pricing__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 14px;
+}
+.pricing__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  padding: 0px 315px 40px 315px;
+}
+.pricing__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+.pricing-list {
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 30%;
+}
+.pricing-list__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #0278ed;
+  padding-top: 50px;
+}
+.pricing-list__price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 108px;
+  line-height: 124px;
+  text-align: center;
+  letter-spacing: 8px;
+  color: #0278ed;
+  padding-bottom: 25px;
+}
+.pricing-list__desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.price-list__btn button {
+  background: #0278ed;
+  padding: 10px 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  border: 0px;
+}
+.price-list__btn {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.pricing-list:nth-child(2) .pricing-list__name {
+  color: #ff5437;
+}
+.pricing-list:nth-child(2) .pricing-list__price {
+  color: #ff5437;
+}
+.pricing-list:nth-child(2) button {
+  background: #ff5437;
+}
+
+.pricing-list:nth-child(3) .pricing-list__name {
+  color: #ff9209;
+}
+.pricing-list:nth-child(3) .pricing-list__price {
+  color: #ff9209;
+}
+.pricing-list:nth-child(3) button {
+  background: #ff9209;
+}
+/* end section 8 */

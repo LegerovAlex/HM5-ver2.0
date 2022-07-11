@@ -548,3 +548,236 @@ hr {
   background: #ff9209;
 }
 /* end section 8 */
+
+.container__testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+.testimonials__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 15px;
+}
+
+.testimonials__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 14px;
+}
+.testimonials__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 41px;
+}
+
+.testimonials__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 16px;
+}
+.testimonials__item {
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 30%;
+  padding: 30px 30px 30px 30px;
+}
+
+.item-user {
+  display: flex;
+  gap: 10px;
+}
+
+.testimonials__item__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.item-user__username {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.item-user__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+.item-user__role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+/* end section 9 */
+
+.container__download {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px 140px 0px;
+}
+
+.download__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-bottom: 5px;
+}
+.download__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 14px;
+}
+.download__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 26px;
+  padding-right: 305px;
+  padding-left: 305px;
+}
+.download__img {
+  text-align: center;
+}
+/* end section 10 */
+.section__bgGG {
+  background: #e5e5e5;
+}
+.container__faq {
+  padding: 110px 0px 100px 0px;
+}
+
+.faq-discription {
+  justify-content: flex-start;
+}
+
+.faq-discription__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 13px;
+}
+
+.faq-discription__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #222222;
+  padding-bottom: 42px;
+}
+
+.faq-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 50px 50px;
+}
+
+.faq-item {
+  display: flex;
+  max-width: 46%;
+  flex-direction: column;
+  gap: 10px;
+}
+.faq-item__question {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+}
+.faq-item__answer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+/* end section 11 */
+.footer {
+  background: #f2f2f2;
+}
+.container__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+.footer__logo {
+  text-align: center;
+  padding-bottom: 27px;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__social {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+.footer__copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.copyriht__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+.copyright__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+}
+/* end footer */
